@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+
+
+
+int main() {
+   string fname, mname, lname, wholename;
+   cout <<"enter first name";
+   cin >> fname;
+   cout <<"enter middle name";
+   cin >> mname;
+   cout <<"enter last name";
+   cin >> lname;
+   wholename = fname + " " + mname + " " + lname;
+   cout << wholename;
+   return 0;
+}
